@@ -1,0 +1,33 @@
+---
+  title: "HW2"
+author: "Your Name (ID)"
+output: 
+  ---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+![https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSaqNn9FqXNPg1JXOOkAbqZWiAtoANpm_SIypUHQufIUSpgQlTq](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSaqNn9FqXNPg1JXOOkAbqZWiAtoANpm_SIypUHQufIUSpgQlTq)
+
+# Problem 1: Use the function summary() to obtain summary statistics for the Iris dataset 
+
+```{r}
+str(iris)
+summary(iris)
+```
+
+# Problem 2:
+
+The sample median of the variable Petal.With is 
+
+median(Petal.Width)
+
+# Problem 3: Draw a histogram for the variable "Sepal.Length"
+
+```{r}
+hist(Sepal.Length)
+```
+
+# Problem 4: Draw a scatter plot 
+
+plot(iris)
